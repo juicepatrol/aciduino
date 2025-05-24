@@ -29,12 +29,12 @@
 // wich modules you need acidman?
 // PUSH and LED modules require booth PUSH_SPI and LED_SPI to point into some spi device
 //#define USE_PUSH_8      // uses 165 shiftregister (buttons)
-//#define USE_PUSH_24     // uses 3x 165 shiftregister
+#define USE_PUSH_24     // uses 3x 165 shiftregister
 //#define USE_PUSH_32     // uses 4x 165 shiftregister
 //#define USE_LED_8       // uses 595 shiftregister
-//#define USE_LED_24      // uses 3x 595 shiftregister
+#define USE_LED_24      // uses 3x 595 shiftregister
 //#define USE_POT_8       // uses 4051 multiplexer
-//#define USE_POT_16      // uses 2x 4051 multiplexer
+#define USE_POT_16      // uses 2x 4051 multiplexer
 //#define USE_TOUCH_32    // uses 2x 4067 multiplexer
 
 
